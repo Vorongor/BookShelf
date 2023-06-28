@@ -1,0 +1,2 @@
+fetch("https://books-backend.p.goit.global/categories").then((e=>e.json())).then((e=>{!function(e){const t=document.getElementById("categoriesList"),n=document.createElement("div");n.className="list";const o=document.createElement("h2");o.className="list-title",o.textContent="ALL CATEGORIES",n.appendChild(o);for(const t of e){const e=document.createElement("p");e.textContent=t.name,n.appendChild(e)}t.appendChild(n)}(e)})).catch((e=>{console.log("Помилка при отриманні списку категорій:",e)}));
+//# sourceMappingURL=index.1bae2db3.js.map
